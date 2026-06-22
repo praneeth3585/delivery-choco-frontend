@@ -1,16 +1,91 @@
-# React + Vite
+# Delivery Choco Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Frontend application for the Delivery Choco Food Delivery System built using React and Vite.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* User Registration and Login
+* Restaurant Listing
+* Menu Browsing
+* Add to Cart Functionality
+* Cart Management
+* Checkout Page
+* Integration with Spring Boot REST APIs
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* React
+* Vite
+* React Router DOM
+* Axios
+* JavaScript
+* HTML
+* CSS
 
-## Expanding the ESLint configuration
+## Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```text
+src/
+├── pages/
+│   ├── Login.jsx
+│   ├── Register.jsx
+│   ├── Restaurants.jsx
+│   ├── Menu.jsx
+│   ├── Cart.jsx
+│   └── Checkout.jsx
+├── services/
+│   └── api.js
+├── App.jsx
+└── main.jsx
+```
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/praneeth3585/delivery-choco-frontend.git
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the application:
+
+```bash
+npm run dev
+```
+
+Application URL:
+
+```text
+http://localhost:5173
+```
+
+## Backend Repository
+
+https://github.com/praneeth3585/delivery-choco-backend
+
+## Functionalities
+
+* Browse restaurants
+* View restaurant menus
+* Add menu items to cart
+* Manage cart items
+* Place food orders
+* Secure authentication using JWT
+
+## Deployment
+
+Frontend can be deployed using:
+
+* Vercel
+* Netlify
+* AWS S3 + CloudFront
+
+## Author
+
+Praneeth Challa
